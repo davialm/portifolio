@@ -10,33 +10,71 @@
 
 body
 {
-    overflow: hidden;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 2000px;
+    
 }
 
-.background
-{
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-    background-color: #b86326;
-    background-size: cover;
-    background-position:center;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    /* background-image: url(background.jpg); */
-}
 header
 {
+    
+    background-color: #bd7440;
+    background-size: cover;
+    background-position:center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     max-width: 100%;
-    align-items: center;
     text-align: center;
-    /* padding-top: 5rem; */
     
 }
-body
+main
 {
+    overflow: hidden;
     background-color: #fff4eb;
+    width: 100%;
+    height: 100%;
 }
+
+footer
+{
+    /* border: 1px solid blue; */
+    background-size: cover;
+    background-position:center;
+    background-color: #fff4eb;
+    height: 50px;
+    display:flex;
+    position:relative;
+
+}
+section
+{
+    /* border: 1px solid red; */
+    width:  100vw;
+    height: 100vh;
+}
+.scroll
+{
+    position: relative;
+    float: right;
+}
+.introduction
+{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.navegation
+{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
 .header-link
 {
     display: flex;
@@ -44,6 +82,7 @@ body
     font-weight: 300;
     cursor: pointer;
     vertical-align: middle;
+    align-items: center;
     
 }
 .header-link a
@@ -66,7 +105,7 @@ body
 
 .profile_pic img
 {
-    padding-left: 30%;
+    padding-left: 45%;
     padding-top: 5%;
     width: 100%;
     
@@ -74,21 +113,35 @@ body
 
 .title
 {
-    padding-left: 5%;
+    padding-left: 10%;
     padding-top: 10%;
+    
 }
-.logo i
+.logo
 {
-    height: 100 px;
-    width: 100 px;
+    width: 30px;
+    max-width: fit-content;
     background: transparent;
-    border: 1px solid #fff4eb;
-    color: #fff4eb;
-    border-radius: 50%;
     display: inline-flex;
-    align-items: center;
     justify-content: center;
-    font-size: 13px;
     cursor: pointer; 
 
+}
+.icons img
+{
+    height: 45px;
+    width: 45px;
+    position: relative;
+    left: 0%;
+}
+.icons
+{
+    height: 100%;
+    width:100%;
+    gap: 1rem;
+    max-width: 100%;
+    display: flex;
+    position:relative;
+    align-items: center;
+    
 }
